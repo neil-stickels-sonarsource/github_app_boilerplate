@@ -12,3 +12,4 @@ RUN pip install -r requirements.txt
 
 # Define the entry point for the container
 CMD ["python", "-m", "webservice"]
+EXPOSE 8080/tcp
